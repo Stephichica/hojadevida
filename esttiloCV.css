@@ -1,0 +1,77 @@
+/*----------------------------
+       selector global
+------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/*Aplicamos estilos al contenedor main*/
+.contenedor {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+/*Aplicamos estilos para el header*/
+.encabezado {
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+}
+
+/*Datos personales*/
+.datos-personales {
+    background-color: #eaf2f8;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/*Imagen*/
+.datos-personales img {
+    width: 150px;
+    height: 180px;
+}
+
+/*Enlace a facebook*/
+.enlace a {
+    color: blue;
+    text-decoration: none;
+}
+
+/*Secciones de la hoja de vida*/
+.seccion-perfil,
+.seccion-formacion,
+.seccion-experiencia,
+.seccion-cursos,
+.seccion-referencias {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+}
+
+/*Titulos de las secciones*/
+h2 {
+    color: #1f4e79;
+}
+
+/*Listas*/
+.lista-formacion,
+.lista-experiencia,
+.lista-cursos,
+.lista-referencias {
+    padding-left: 25px;
+}
+
+/* Aplicamos espacio entre los elementos */
+li {
+    margin-bottom: 5px;
+}

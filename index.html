@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="es"
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="witdh=device-witdh, initial-scale=1.0">
-    <title>Hola de Vida</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Conecta el archivo CSS-->
+    <link rel="stylesheet" href="esttiloCV.css">
+    <title>Hoja de Vida</title>
 </head>
 <body>
-    <h1>HOJA DE VIDA</h1>
-    <div>
+    <!--Contenedor main-->
+    <main class="contenedor">
+        <!--Cabecera de la página web-->
+        <header class="encabezado">
+            <h1>HOJA DE VIDA</h1>
+        </header>
+    <div class="datos-personales">
         <!--Rutas relativas: Es cuando quiero enlazarme a recursos dentro de mi proyecto-->
         <!--Enlace a una imagen mediante una ruta relativa--> 
-       <img src="imagen/foto.jpeg" alt="Foto para CV" width="150px" height="180px">
+       <img class="foto" src="imagen/foto.jpeg" alt="Foto para CV" width="150px" height="180px">
        <br>
         <h2>Datos Personales</h2>
         <p><strong>Nombre:</strong> Chicaiza Stephanie</p>
@@ -18,23 +25,23 @@
         <p><strong>Edad:</strong> 32 años</p>
         <p><strong>Teléfono:</strong> 0962291666</p>
         <p><strong>E-mail:</strong> yadirachicaizam@gmail.com</p>
-    <section>
+    <section class="enlace">
         <!--Un enlace a Facebook- Utilizamos la etiqueta a-ancle--> 
         <a href="https://www.facebook.com/" target="_blank">Visita Mi perfil de Facebook</a>
     </section>
     </div>
-    <div><!--Contenedor de listas-->
+    <div class="seccion-perfil"><!--Contenedor de listas-->
         <h2>Perfil Personales</h2>
         <p>Persona responsable, honesta y organizada, con experiencia como cajera y emprendedora en el área de panadería y pastelería. Cuento con habilidades en manejo de dinero, control de caja, atención al cliente y administracion básica de negocios. Mi experiencia como propietaria me permitió fortalecer el compromiso, a organización, la responsabilidad y la capacidad para trabajar bajo presión.
-            Actualmente estido Desarrollo de Software y Educación Básica, áreas que me permiten apmliar mis conocimientos y desarrollar nuevas habilidades tanto tecnológicas como educativas. Me caracterizo por tener iniciativa y deseos de superación, buscando constantemente adquirir nuevos conocimientos y asumir nuevos retos profesionales. 
+            Actualmente estudio Desarrollo de Software y Educación Básica, áreas que me permiten ampliar mis conocimientos y desarrollar nuevas habilidades tanto tecnológicas como educativas. Me caracterizo por tener iniciativa y deseos de superación, buscando constantemente adquirir nuevos conocimientos y asumir nuevos retos profesionales. 
         </p>
     </div>
-    <div>
+    <div class="seccion-formacion">
         <!--Dentro de html tenemos 2 tipos de listas
     Listas ordenadas: Tienen un gerarquico
     Listas desordenadas: No tienen numeración-->
         <h2>Formación Académica</h2>
-        <ul>
+        <ul class="lista-formacion">
             <li><strong>Colegio</strong>
                 <ul>
                     <li>“Camilo Ponce Enríquez”</li>
@@ -57,9 +64,9 @@
             </li>
         </ul>
     </div>
-    <div>
+    <div class="seccion-experiencia">
         <h2>Experiencia Laboral</h2>
-        <ul>
+        <ul class="lista-experiencia">
             <li><strong>Panadería y Pastelería Quito</strong>
                 <ul>
                     <li>Cajera - Sep 2015 - Dic 2018
@@ -91,10 +98,10 @@
             </ul>
         </li>
         </ul>
-    </di>
-    <div>
+    </div>
+    <div class="seccion-cursos">
         <h2>Cursos Realizados</h2>
-        <ul>
+        <ul class="lista-cursos">
             <li>Cruz Roja Ecuatoriana "Junta Provincial Pichincha"
                 <ul>
                     <li>Voluntaria</li>
@@ -111,10 +118,10 @@
                 </ul>
             </li>
         </ul>
-    </di>
-    <div>
+    </div>
+    <div class="seccion-referencias">
         <h2>Referencias</h2>
-        <ul>
+        <ul class="lista-referencias">
             <li>Sra. Marisol Altamirano
                 <ul>
                     <li>Relación: Fue mi jefe</li>
@@ -137,7 +144,7 @@
                     </li> 
         </ul>
     </div>
+    </main>
 </body>
-<html>
 
 </html>
